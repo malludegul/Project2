@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css1.css">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+
+    <div class="container col-12 col-sm-6 col-md-3 shadow-lg p-4 mb-4 bg-white mx-auto d-block border border-primary">
+    <form  >
+    <div class="form-group">
+       
+        <input type="email" placeholder="Enter Email" name="email" 
+        id="email">
+        <div id="emailMassage"></div>
+    </div><br>
+
+    <div class="form-group">
+       
+        <input type="password" placeholder="Enter password" name="password"
+        id="password">
+
+    </div><br>
+
+    <div>
+    <button calss="btn btn-primary " type="button" onclick="logIn()">LoG In</button>
+    <div id="LoginMassage"></div>
+</div>
+
+<button onclick="dispalyDateonclick()" type="button">DispalyDate</button>
+<div id="displayDate"></div>
+
+</form>
+</div>
+<!--EXTERANAL JAVA SCRIPT LINKING TO HTML-->
+<script src="Login.js"></script>
+
+<!--<script src="Function.js"></script>-->
+
+
+
+    
+</body>
+</html>
